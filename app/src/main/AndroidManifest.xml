@@ -19,6 +19,40 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".materialdesign.ShadowActivity" />
+        <activity android:name=".materialdesign.shadow.ElevateActivity" />
+        <activity android:name=".materialdesign.shadow.ShadeActivity" />
+        <activity android:name=".materialdesign.shadow.SuitActivity" />
+        <activity android:name=".ActionActivity" />
+        <activity android:name=".action.RippleActivity" />
+        <activity android:name=".ModuleActivity" />
+        <activity android:name=".MaterialDesignActivity" />
+        <activity android:name=".action.CutToActivity" />
+        <activity android:name=".action.cutto.SlideActivity" />
+        <activity android:name=".action.cutto.FadeActivity" />
+        <activity android:name=".action.cutto.ExplodeActivity" />
+        <activity android:name=".action.cutto.ShareElementActivity" />
+        <activity android:name=".StyleActivity" />
+        <activity android:name=".style.TintActivity" />
+        <activity android:name=".module.CardViewActivity" />
+        <activity android:name=".module.RecyclerViewActivity" />
+        <activity android:name=".module.FabActivity" />
+        <activity android:name=".module.SnackBarActivity" />
+        <activity android:name=".module.CoordinatorLayoutActivity" />
+        <activity android:name=".module.RfabActivity" />
+        <activity
+            android:name=".module.ToolBarActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".module.AppBarLayoutActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".module.CtlActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".module.NavigationBottomViewActivity" />
+        <activity android:name=".module.SwipeRefreshLayoutActivity" />
+        <activity android:name=".module.TabLayoutActivity" />
+        <activity android:name=".module.NavigationViewActivity" />
     </application>
 
 </manifest>
